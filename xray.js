@@ -41,8 +41,8 @@ $('.feature-finder-overlay').each( function(i) {
     var elem = this;
     setTimeout(function() {
         $(elem).show();
-    }, (10000/divies.length) * i);
+    }, (5000/divies.length) * i);
     setTimeout(function() {
-    }, (10000/divies.length) * (i+1));
+    }, (5000/divies.length) * (i+1));
 
 });
